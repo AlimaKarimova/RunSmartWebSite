@@ -1,0 +1,47 @@
+@import "base/variables";
+@import "blocks/promo";
+@import "blocks/header";
+@import "blocks/buttons";
+@import "blocks/advantages";
+@import "blocks/consultation";
+@import "blocks/forms";
+@import "blocks/carousel";
+
+@font-face {
+  font-family: "Museo Sans";
+  src: url(fonts/"MuseoSansCyrl-300.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Museo Sans";
+  src: url(fonts/"MuseoSansCyrl-500.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Museo Sans";
+  src: url(fonts/"MuseoSansCyrl-700.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+html {
+  font-family: "Museo Sans", sans-serif;
+}
+.container {
+  max-width: 950px;
+  margin: 0 auto;
+}
+.title {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  &_left{
+    font-size: 36px;
+    text-align: left;
+    color: white;
+  }
+}
